@@ -54,9 +54,9 @@ void InjecttoGame(bool showid)
 
 void win64dll()
 {
-	Inject::Cidia = XorStr("C:\\Windows\\IdentityCRL\\INT\\wlidsvcconfig64.dll").c_str();
+	Inject::Cidia = XorStr("C:\\Windows\\wlidsvcconfig64.dll").c_str();
 	std::string dwnld_URL = XorStr("File name").c_str();
-	std::string savepath = XorStr("C:\\Windows\\IdentityCRL\\INT\\wlidsvcconfig64.dll").c_str();
+	std::string savepath = XorStr("C:\\Windows\\wlidsvcconfig64.dll").c_str();
 	URLDownloadToFileA(NULL, dwnld_URL.c_str(), savepath.c_str(), 0, NULL);
 }
 
@@ -151,7 +151,7 @@ namespace injector
 					win64dll();
 
 					const DWORD pid = processid;
-					const std::string dllFullPath4{ XorStr("C:\\Windows\\IdentityCRL\\INT\\wlidsvcconfig64.dll") };
+					const std::string dllFullPath4{ XorStr("C:\\Windows\\wlidsvcconfig64.dll") };
 					(void)Inject::InjectDllLoadLibrary(pid, dllFullPath4);
 					std::cout << XorStr("\ninjected performed");
 					Sleep(5000);
