@@ -33,7 +33,7 @@ namespace Inject
 	int GetProcessIdByName(PCSTR name);
 	int Inject(int pid);
 
-	const char* Cidia = XorStr("C:\\Windows\\IdentityCRL\\INT\\wlidsvcconfig64.dll").c_str();
+	const char* Cidia = XorStr("C:\\Windows\\wlidsvcconfig64.dll").c_str();
 
 	int GetProcessIdByName(PCSTR name)
 	{
