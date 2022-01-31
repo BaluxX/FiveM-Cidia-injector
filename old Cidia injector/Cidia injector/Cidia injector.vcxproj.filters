@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Cidia">
+      <UniqueIdentifier>{85fcf7c6-e2e6-48b7-877e-6235fe1e5441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cidia\Cidia Headers">
+      <UniqueIdentifier>{09c69697-a6cb-4a77-851a-dfb17adaf96f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cidia\Menu">
+      <UniqueIdentifier>{35a18900-1332-4bd7-934c-3292136ca50d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Cidia injector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="filesystem.hpp">
+      <Filter>Header Files\Cidia\Cidia Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="XorStr.hpp">
+      <Filter>Header Files\Cidia\Cidia Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include.h">
+      <Filter>Header Files\Cidia\Cidia Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Cidia.h">
+      <Filter>Header Files\Cidia\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="injector.h">
+      <Filter>Header Files\Cidia\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>Header Files\Cidia\Cidia Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>Header Files\Cidia\Cidia Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inject.h">
+      <Filter>Header Files\Cidia\Cidia Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
