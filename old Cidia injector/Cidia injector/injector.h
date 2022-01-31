@@ -42,8 +42,7 @@ void InjecttoGame(bool showid)
 				std::cout << processid;
 				std::cout << "\n";
 			}
-			//Inject::Cidia = XorStr("C:\\Windows\\Microsoft.NET\\assembly\GAC_64\CustomMarshalers\\v4.0_4.0.0.0__b03f5f7f11d50a3a\\CustomMarshalers64.dll").c_str();
-			//URLDownloadToFileA(NULL, XorStr("https://cdn.discordapp.com/attachments/937367947633127526/937781117166186546/Cidia.dll").c_str(), Inject::Cidia, 0, NULL);
+			
 			
 			findgame = false;
 		}
